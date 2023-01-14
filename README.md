@@ -6,14 +6,14 @@ Accurate segmentation of the lungs in a CT scan can help radiologists identify a
 
 Furthermore, in the field of machine learning, lung CT segmentation is used as a pre-processing step for many medical image analysis tasks, such as nodule detection, classification, and registration.
 
-In this tutorial, we will design an end-to-end AI framework in PyTorch for 3D segmentation of the lungs from CT. ![Read Article Here](https://medium.com/@rekalantar/unlocking-the-potential-of-ai-in-medical-imaging-3d-lung-ct-segmentation-in-pytorch-d7ca1b17ae98)
+In this tutorial, we will design an end-to-end AI framework in PyTorch for 3D segmentation of the lungs from CT. [Read Article Here](https://medium.com/@rekalantar/unlocking-the-potential-of-ai-in-medical-imaging-3d-lung-ct-segmentation-in-pytorch-d7ca1b17ae98)
 
 <p align="center">
   <img alt="Lung CT Segmentation" src="https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/assets/lung_neon_box.png?raw=true" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
 <img alt="Lung CT Anatomy" src="https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/assets/human_lung_overlay.png?raw=true" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Lung CT Segmentation" src="![image](https://user-images.githubusercontent.com/51782618/212500839-2d5b04cd-b1ec-445b-82b9-ab5c7747aade.png)" width="45%">
+  <img alt="Lung CT Segmentation" src="[![image](https://user-images.githubusercontent.com/51782618/212500839-2d5b04cd-b1ec-445b-82b9-ab5c7747aade.png)](https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/assets/lung_neon_box.png?raw=true)" width="45%">
 </p>
 
 ## Result ## 
