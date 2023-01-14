@@ -1,12 +1,20 @@
-# 3D Lung Segmentation on CT
+# 3D Patch-Based Lung Segmentation on CT
 
-In order to detect lung lesions in CT 3D volumes, the lung needs to be segmented from the images. This project inspired by the Kaggle Data Science Bowl 2017, aimed to automate 3D lung segmentation from the CT scans using a 3D U-Net model. These allow calculation of paramterers such as the lung volume and Percentile Density (PD) from the CT scans. The dataset provides 2D and 3D images along with the masks provided by radiologists. The code was written for use in Google Colab and the dataset can be directly downloaded from the Kaggle database with personal API tokens.
+Lung CT segmentation is an important task in the field of medical imaging, as it allows for more accurate diagnosis and treatment planning for lung diseases such as lung cancer, chronic obstructive pulmonary disease (COPD), and pneumonia.
 
+Accurate segmentation of the lungs in a CT scan can help radiologists identify and measure the size and location of tumors or other abnormalities within the lungs. It can also be used to automatically extract quantitative information such as lung volumes and airway measurements, which can be used to aid in the diagnosis and treatment of lung diseases.
 
-### Mask predictions from a CT series volume
-![alt text](https://raw.githubusercontent.com/rekalantar/CT_lung_3D_segmentation/master/results/subsample_pred.png)
+Furthermore, in the field of machine learning, lung CT segmentation is used as a pre-processing step for many medical image analysis tasks, such as nodule detection, classification, and registration.
 
+In this tutorial, we will design an end-to-end AI framework in PyTorch for 3D segmentation of the lungs from CT. ![Read Article Here](https://medium.com/@rekalantar/unlocking-the-potential-of-ai-in-medical-imaging-3d-lung-ct-segmentation-in-pytorch-d7ca1b17ae98)
 
+<p align="center">
+  <img alt="Lung CT Segmentation" src="https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/assets/lung_neon_box.png?raw=true" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+<img alt="Lung CT Anatomy" src="https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/assets/human_lung_overlay.png?raw=true" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Lung CT Segmentation" src="![image](https://user-images.githubusercontent.com/51782618/212500839-2d5b04cd-b1ec-445b-82b9-ab5c7747aade.png)" width="45%">
+</p>
 
-### Prediction of lung volume from the volumetric CT scans
-![alt text](https://raw.githubusercontent.com/rekalantar/CT_lung_3D_segmentation/master/results/full_scan_prediction.png)
+## Result ## 
+![3D Lung CT Results](https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/results/seg_result.png)
