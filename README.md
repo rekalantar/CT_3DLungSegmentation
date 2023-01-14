@@ -22,4 +22,4 @@ The curves of training loss and validation Dice score after training for 500 epo
 ![3D Lung CT training](https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/results/train_val_curves.png)
 
 Segmentation result on a test patient
-![3D Lung CT Results](https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/results/seg_result.png)
+![3D Lung CT Results](https://github.com/rekalantar/CT_3DLungSegmentation/blob/master/results/seg_results.png)
